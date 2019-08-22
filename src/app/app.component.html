@@ -17,5 +17,17 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
-
+<!-- <div>
+  <h1>My Goal</h1>
+  <ul>
+    <li *ngFor='let goal of goals'>
+        {{ goal.id }}{{ goal.name }}
+        
+    </li>
+  </ul>
+  <p *ngIf='goals.length>5'>
+    Your goals are too many!!
+  </p>
+</div> -->
+<app-goal></app-goal>
 <router-outlet></router-outlet>
